@@ -1,0 +1,30 @@
+h1{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*BG*/
+body{
+    background-color: #ffffff ;
+}
+
+/*margin*/
+.Textbox{
+    text-align: center;
+}
+.Button1{
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+    .class1{
+        border: 2px solid #f56038;
+    }
+}

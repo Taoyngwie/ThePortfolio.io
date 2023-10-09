@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 5px solid #2196F3; /* Adds a nice blue border at the bottom */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1); /* Subtle shadow around the content */
+}
+
+.game-preview {
+    flex: 70%;
+    border-right: 2px dashed #ddd; /* Dashed border for separation */
+    padding-right: 40px;
+}
+
+.game-preview img {
+    width: 100%; /* Makes the image responsive */
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1); /* Shadow for the game image */
+}
+
+.game-description h2 {
+    color: #444;
+    border-bottom: 2px solid #2196F3; /* Blue line under the headings */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.development-process {
+    flex: 28%;
+    padding-left: 40px;
+}
+
+.development-process ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.development-process li {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 5px solid #2196F3; /* Adds a nice blue border at the top */
+}
+
+a {
+    color: #2196F3; /* Using the same blue for links */
+    text-decoration: none; /* Removing the underline for a cleaner look */
+    transition: color 0.3s ease; /* Smooth transition for link hover */
+}
+
+a:hover {
+    color: #0069c0; /* Darker blue for hover effect */
+}
+
+/* Adding some icons before the development process steps for added flair */
+.development-process li:before {
+    content: '\2022'; /* Unicode bullet point */
+    color: #2196F3; /* Blue bullet point */
+    font-size: 30px;
+    margin-right: 15px;
+}
